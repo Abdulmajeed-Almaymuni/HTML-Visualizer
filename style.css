@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.canvas {
+    overflow: scroll;
+    width: 1200px;
+    height: 600px;
+    line-height: 0px;
+}
+
+canvas {
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.content{
+    max-width: 50%;
+    max-height: 25%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(54, 54, 54);
+    border: solid 3px white;
+    color: white;
+    padding: 20px;
+    overflow: auto;
+    display: none;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+
