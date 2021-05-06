@@ -94,7 +94,6 @@ canvas.addEventListener("dblclick", e => {
                 alert("Tag value cannot be empty")
             } else {
                 nodes[i].element.appendChild(document.createElement(tag.trim()));
-                alert("Child made at tag: "+ nodes[i].element + " Tag is: " + tag)
                 nodes = [];
                 remakeTree();
                 break;
